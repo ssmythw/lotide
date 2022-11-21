@@ -1,0 +1,27 @@
+{
+  "name": "@ssmy39/lotide",
+  "version": "1.0.1",
+  "description": "A library that has some useful functions that you can use.",
+  "main": "assertArraysEqual.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssmythw/lotide.git"
+  },
+  "keywords": [],
+  "author": "Scott Smyth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ssmythw/lotide/issues"
+  },
+  "homepage": "https://github.com/ssmythw/lotide#readme",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^9.2.2"
+  }
+}

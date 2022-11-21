@@ -12,3 +12,17 @@ const assertArraysEqual = (arr1, arr2) => {
     console.log("Arrays don't match!");
   }
 };
+
+const middle = (arr) => {
+  if (arr.length === 1 || arr.length === 2) return [];
+  if (arr.length % 2 === 1) {
+    return [arr[Math.floor(arr.length / 2)]];
+  } else {
+    return [
+      arr[Math.floor(arr.length / 2 - 1)],
+      arr[Math.floor(arr.length / 2)],
+    ];
+  }
+};
+
+module.exports = middle;
